@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(38, 171, 95), rgb(7, 77, 35));
+    height: 220px;
+}
+
+header > h1 {
+    text-align: center;
+    padding-top: 35px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+}
+
+header > p {
+    text-align: center;
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 3px 2px 2px black;
+}
+
+.menu > a {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 8px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-shadow: 3px 2px 2px black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+nav > a:hover {
+    background-color: rgb(32, 131, 74);
+    color: darkgreen;
+    text-shadow: none;
+}
+
+body {
+    background-color: rgb(148, 209, 148);
+}
+
+main {
+    background-color: white;
+    min-width: 350px;
+    max-width: 1050px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.471);
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 75%;
+    padding: 0px 10px;
+}
+
+strong {
+    color: darkgreen;
+}
+
+.links_principais {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.titulo {
+    font-family: "idroid";
+    color: rgb(7, 77, 35);
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.subtitulos {
+    font-family: "idroid";
+    color: rgb(7, 77, 35);
+    padding-left: 20px;
+    margin-left: 20px;
+    background-image: linear-gradient(to right, rgba(21, 215, 99, 0.347), rgba(241, 253, 246, 0.164));
+    width: 900px;
+}
+
+.paragrafos {
+    text-indent: 30px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.video {
+    background-color: rgb(7, 77, 35);
+    padding: 20px 250px;
+}
+
+h3 {
+    background-color: rgb(87, 164, 110);
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.439);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(256, 256, 256);
+}
+
+aside {
+    background-color: rgb(179, 229, 199);
+    margin: 20px 15px;
+    border-radius: 3px;
+    box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.439);
+}
+
+.footer {
+    background-color: rgb(7, 77, 35);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+}

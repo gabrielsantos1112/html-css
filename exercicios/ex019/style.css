@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Em html, todo id = # no css (só pode 1 id por página/documento html*/
+/* Em html, todo class = . no css (pode vários elementos*/
+
+body {
+    background-color: rgba(177, 255, 174, 0.881);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2 {
+    color: rgb(73, 109, 71);
+}
+
+.basico {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: lightyellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: #ffff0051;
+}
