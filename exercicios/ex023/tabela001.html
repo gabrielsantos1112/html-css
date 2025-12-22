@@ -11,15 +11,18 @@
 
         table, td {
             border: 1px solid black;
-            width: 500px;
-            padding-top: 20px;
+            width: 400px;
+            height: 400px;
             text-align: center;
             border-collapse: collapse;
+            vertical-align: top;
+        }
+
+        .numero {
+            text-align: right;
+            vertical-align: bottom;
         }
         
-        .linha {
-            background-color: darkorange;
-        }
     </style>
 </head>
 <body>
@@ -30,7 +33,7 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -38,7 +41,7 @@
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">15</td>
         </tr>
         <tr>
             <td>A4</td>
